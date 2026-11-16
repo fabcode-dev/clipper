@@ -76,7 +76,7 @@ sudo apt-get install -y git   # Linux
 ## 4. Get the code and install dependencies
 
 ```bash
-git clone <your-repo-url> clipper
+git clone https://github.com/fabcode-dev/clipper
 cd clipper
 npm install
 ```
@@ -110,6 +110,8 @@ To use it from another device on your network, open `http://<this-pc-ip>:3000`. 
 4. You should see the elapsed timer count up, then a player and a Download button for each clip.
 
 If a render fails, the error from FFmpeg appears in the progress panel.
+
+Next: [how-to-use.md](how-to-use.md) explains each step in the editor, and [features.md](features.md) lists everything the tool can do.
 
 ## Optional settings
 
